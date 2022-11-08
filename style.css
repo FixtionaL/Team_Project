@@ -14,18 +14,56 @@ body{
     font-weight: lighter;
     margin-right: 25px;
     box-shadow: 2px 2px 2px 2px;
+}
 
-  }
-.navbarh:hover {
-    text-decoration-line: underline;
-    text-decoration-color:rgb(205, 201, 201);
-    
-  }
-h1{
+a{
     float:right;
     padding: 10px;
     padding-right: 40px;
     color: azure;
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}
+  
+a {
+    background-image: linear-gradient(
+      to right,
+      #656869,
+      #64686a 50%,
+      rgb(252, 250, 250) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-right: 30px;
+    padding-top: 20px;
+  }
+  
+  a:before {
+    content: '';
+    background: whitesmoke;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before {
+    width:100%;
   }
