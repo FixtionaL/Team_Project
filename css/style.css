@@ -1,14 +1,14 @@
 .slideshow-container
 {
     margin-top: 20px;
-    width: 1450px;
+    width: 100%;
     height: 300px;
     box-shadow: 4px 4px 4px 4px lightgray;
     border-radius: 15px;
 }
 
 .slideshow-container img{
-    width: 1450px;
+    width: 100%;
     height: 300px;
 }
 .header
