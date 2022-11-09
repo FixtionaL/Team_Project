@@ -1,0 +1,25 @@
+.form_one{
+    border: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin-left: 1000px;
+}
+.signup{
+   color: black;
+   text-align: center;
+   background-color: rgb(192, 228, 236);
+   border: 2px solid rgb(51, 17, 17);
+   margin: 50px;
+   padding: 30px;
+}
+body{
+    margin-top: 160px;
+    background-image: url('D:./Pranav./Downloads./Welcome! Hope you have a great experience!.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: light;
+}
