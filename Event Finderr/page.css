@@ -1,0 +1,94 @@
+.header
+{
+    background-color: darkslateblue;
+    margin-top: -17px;
+    padding: 7px;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* border: 2px solid black; */
+    height: 60px;
+}
+.header .head-ol
+{
+    float: left;
+    width: 1800px;
+}
+select{
+    margin-left: 400px;
+}
+list{
+    padding-right: 20px;
+    color: white;
+}
+input{
+    width: 600px;
+    padding: 11px;
+    border-radius: 11px;
+}
+select{
+    background-color: transparent;
+    border: 0ch;
+    color: white;
+}
+option{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: deeppink;
+    border-radius: 7px;
+    padding: 8px;
+    color: white;
+}
+.options
+{
+    background-color: rgb(34, 37, 57);
+    margin-top: -16px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 45px;
+    color: white;
+}
+.content{
+    border: 2px solid white;
+    margin-top: 10px;
+    height: 680px;
+    background:black;
+    color: white;
+    
+}
+.content div{
+    padding: 30px;
+}
+.img-cont{
+    width: 300px;
+    width: 500px;
+}
+.img-cont img{
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+}
+.content{
+    display: inline-flex;
+    width: 1458px;
+    margin-top: 30px;
+}
+.content .img-cont
+{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.content .detail{
+    margin-top: 60px;
+}
+.content .interest{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 100px;
+    width: 400px;
+}
+button{
+    width: 180px;
+    height: 60px;
+}
