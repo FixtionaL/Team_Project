@@ -258,6 +258,12 @@ img {
       box-shadow: inset 780px 0px 0px 0px  #f3f5f6;
       
     }
-    
+    .css img{
+        width:400px;
+        height:400px;
+        float: right;
+        margin-right: 80px;
+    }
+
 
 
